@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>我的兴趣爱好</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+			background-image: url('./背景1.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		h1 {
+			font-size: 2em;
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.interests {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			margin-top: 50px;
+		}
+
+		.interest {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0,0,0,.1);
+			padding: 20px;
+			margin: 20px;
+			width: calc(33.33% - 40px);
+			text-align: center;
+		}
+
+		.interest:hover {
+			box-shadow: 0 4px 8px rgba(0,0,0,.1);
+			transform: translateY(-5px);
+		}
+
+		.interest img {
+			display: block;
+			margin: auto;
+			height: 80px;
+			margin-bottom: 10px;
+		}
+
+		.interest h3 {
+			font-size: 1.5em;
+			margin: 10px 0;
+		}
+
+		.interest p {
+			font-size: 1.2em;
+			margin: 0;
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<h1>我的兴趣爱好</h1>
+	<div class="interests">
+		<div class="interest">
+			<img src="./游泳.jpg" alt="游泳">
+			<h3>游泳</h3>
+			<p>喜欢在水里自由畅游</p>
+		</div>
+		<div class="interest">
+			<img src="./旅行.jpg" alt="旅行">
+			<h3>旅行</h3>
+			<p>各种地方都可以去逛逛看看</p>
+		</div>
+		<div class="interest">
+			<img src="./阅读.jpeg" alt="阅读">
+			<h3>阅读</h3>
+			<p>喜欢各种类型的书籍，从小说到历史</p>
+		</div>
+		<div class="interest">
+			<img src="./音乐.jpeg" alt="音乐">
+			<h3>音乐</h3>
+			<p>喜欢听各种类型的音乐，可以放松心情</p>
+		</div>
+		<div class="interest">
+			<img src="./跑步.jpg" alt="跑步">
+			<h3>跑步</h3>
+			<p>享受风景和体力的平衡感</p>
+		</div>
+	</div>
+</body>
+</html>
